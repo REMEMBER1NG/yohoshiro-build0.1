@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5e4d3;
+    font-family: 'consolas', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.bg {
+    background-image: url('../images/main-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar-brand {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+li{
+    margin-right: 6vh;
+}
+
+a:hover {
+    transition: 1s;
+}
+
+.container {
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
